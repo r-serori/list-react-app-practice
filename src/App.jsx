@@ -1,10 +1,15 @@
 import "./styles.css";
 
-export default function App() {
+import React, { useState } from "react";
+import ToDoInput from "./ToDoInput";
+import ToDoList from "./ToDoList";
+
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <h1>ToDoリストアプリ</h1>
     </div>
   );
 }
+
+export default App;
